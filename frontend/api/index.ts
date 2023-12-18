@@ -1,2 +1,2 @@
-let api = "http://localhost:8000/api/enroll";
+let api = "https://tacky-tank-production.up.railway.app/api/enroll";
 export default api;
