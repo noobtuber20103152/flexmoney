@@ -33,72 +33,26 @@ The relationship between Participant and Enrollment is many-to-many, as one part
 
 ## API Reference
 
-#### Get all items
+#### Base api URL
 
 ```http
   https://tacky-tank-production.up.railway.app/
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
 
-#### Get item
+#### API endpoint
 
 ```http
-  GET /api/enroll
+  POST /api/enroll
 ```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
 
 
 # Frontend
 Tech stack used : Next.js, Tailwind CSS
 
-## Appendix
+# Backend
+Tech stack used : Node.js
 
-Any additional information goes here
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Screenshots
-
-![App Screenshot](https://github.com/Binita-tech/Binita-tech/assets/78761614/84aaecf8-a16c-48e2-9aca-5af3634ebb2c)
-
-![App Screenshot](https://github.com/Binita-tech/Binita-tech/assets/78761614/e59e095f-2e02-4705-9378-7d9f89b7b632)
 
 
 
@@ -107,29 +61,60 @@ Install my-project with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/noobtuber20103152/groww
+  git clone https://github.com/noobtuber20103152/flexmoney
 ```
 
 Go to the project directory
 
 ```bash
-  cd groww
+  cd flexmoney
+```
+start server
+```bash
+cd ./backend 
+
+npm install
+
+npm run start
 ```
 
-Install dependencies
+start frontend 
+```bash 
+cd ./frontend 
+
+npm run start 
+
+npm run dev
+
+```
+
+
+
+## Run using docker 
+
+clone the repository 
 
 ```bash
-  npm install
+git clone git clone https://github.com/noobtuber20103152/flexmoney
+
+cd ./flexmoney 
+
+docker-compose up -d 
+
 ```
 
-Start the server
+## Public URL 
 
-```bash
-  npm run dev
+```https
+website URL - 
 ```
 
 
-## Demo
 
-Insert gif or link to demo
+## Video
 
+![2023-12-18 22-11-45](https://github.com/noobtuber20103152/flexmoney/assets/81584747/b0e11ec3-e1cf-46d5-a72f-922c1559fd9e)
+
+
+## 🚀 About Me
+I'm a full stack developer...
