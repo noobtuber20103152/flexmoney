@@ -35,14 +35,14 @@ The relationship between Participant and Enrollment is many-to-many, as one part
 
 #### Base api URL
 
-```http
+```bash
   https://tacky-tank-production.up.railway.app/
 ```
 
 
 #### API endpoint
 
-```http
+```bash
   POST /api/enroll
 ```
 
@@ -106,7 +106,7 @@ docker-compose up -d
 ## Public URL 
 
 ```https
-website URL - 
+website URL - https://flexmoney-chi.vercel.app/
 ```
 
 
